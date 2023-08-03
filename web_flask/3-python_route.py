@@ -31,7 +31,7 @@ def hello_text(text):
 def hello_python(text):
     """Display "python", followed by the value of the variable"""
     text = text.replace('_', ' ')
-    return f"python {escape(text)}"
+    return f"Python {escape(text)}"
 
 
 if __name__ == "__main__":
